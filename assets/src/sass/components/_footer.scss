@@ -1,0 +1,53 @@
+footer {
+	position: relative;
+	background-color: $grey-800;
+	font-size: 14px;
+	color: $white;
+
+	h5 {
+		margin-top: 0;
+		font-weight: 500;
+		
+	}
+
+	.social-icons-box {
+		.fa {
+			color: #999;
+			font-size: 18px;
+			&:hover {
+				color: $brown-base;
+			}
+		}
+	}
+	.posts-wrapper {
+
+		.entry-title {
+			margin-bottom: 0;
+			a {
+				color: $grey-200;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 1;
+			}
+		}
+		.post-img-wrapper {
+			width: 80px;
+		}
+		small {
+			a {
+				color: $grey-200;
+			}
+		}
+	}
+
+	.contacts-wrapper {
+		.fa {
+			font-size: 18px;
+			color: $brown-base;
+		}
+	}
+	.bottom-footer {
+		background-color: $grey-900;
+
+	}
+}
